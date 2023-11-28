@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="远程主机 (4adf48d2-d37c-4458-ac85-c43181e023f4)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ubuntu/duo" local="H:/duo" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
