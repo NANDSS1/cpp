@@ -8,6 +8,7 @@ void threadFun(){
     for(int i = 0;i < 5;i++) cout<<"threading"<<endl;
 }
 
+/*
 int main(){
     thread t(threadFun);//创建线程然后启动
 
@@ -15,3 +16,4 @@ int main(){
     t.join();//等待子线程执行完成，原地打转
 
 }
+ */
