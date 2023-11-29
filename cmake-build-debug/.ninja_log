@@ -1,10 +1,10 @@
 # ninja log v5
-2	168	7229282353632995	build.ninja	d2a048fe65147fd9
+1	309	7229579251444033	build.ninja	d2a048fe65147fd9
 13	1741	7219134167380469	CMakeFiles/cpp.dir/leetcode/lc394.cpp.obj	9737cae849b6a4ed
 3	508	7219101598080204	CMakeFiles/cpp.dir/test.cpp.obj	428a029bbffa3d94
 3	2012	7228749994632937	CMakeFiles/cpp.dir/shuzu/lc704_erfen.cpp.obj	92304f55d5c640a7
 1	443	7111006153371923	CMakeFiles/cpp.dir/main.cpp.obj	c8088491e108707d
-1746	1917	7228811877580512	cpp.exe	53cd287bbd9b501c
+1998	2243	7229289541579096	cpp.exe	e48a4edd7fe23391
 4	1695	7219151397393046	CMakeFiles/cpp.dir/leetcode/lc84.cpp.obj	2b568ab200d5dced
 2	1784	7221493181571514	CMakeFiles/cpp.dir/shuzu/lc167.cpp.obj	720e4d7113341546
 2	4652	7216297121305405	CMakeFiles/cpp.dir/morechar.cpp.obj	c3cac1e6da58c428
@@ -36,10 +36,7 @@
 10	2030	7228749994795066	CMakeFiles/cpp.dir/yufa/6_daxiaoduan.cpp.obj	92c5a93b9c39f21a
 6	1956	7228769326805600	CMakeFiles/cpp.dir/shuzu/lc27_yichuyuansu.cpp.obj	58a6659e5bad1114
 3	1607	7228804233793603	CMakeFiles/cpp.dir/shuzu/lc977_youxushuzupingfang.cpp.obj	1fcf44c35168a52f
-1	309	7229282353632995	build.ninja	d2a048fe65147fd9
-4	2066	7229282374546132	CMakeFiles/cpp.dir/hash/lc349_lianggeshuzujiaoji.cpp.obj	20e3c1f4f6907482
-2067	2473	7229282378765121	cpp.exe	e48a4edd7fe23391
-6	1941	7229288942113682	CMakeFiles/cpp.dir/hash/lc349_lianggeshuzujiaoji.cpp.obj	20e3c1f4f6907482
-1941	2154	7229288943984358	cpp.exe	e48a4edd7fe23391
 10	1998	7229289539174089	CMakeFiles/cpp.dir/hash/lc349_lianggeshuzujiaoji.cpp.obj	20e3c1f4f6907482
-1998	2243	7229289541579096	cpp.exe	e48a4edd7fe23391
+5	2332	7229582078722567	CMakeFiles/cpp.dir/hash/lc349_lianggeshuzujiaoji.cpp.obj	20e3c1f4f6907482
+18	2399	7229582079390756	CMakeFiles/cpp.dir/yufa/8_duoxiancheng.cpp.obj	9261f035816d8d22
+2400	3122	7229582086577419	cpp.exe	1397b5b8c87e9817
