@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(cpp hash/lc15_sanshuzhihe.cpp)
+add_executable(cpp hash/lc15_sanshuzhihe.cpp hash/lc9_sishuzhihe.cpp)

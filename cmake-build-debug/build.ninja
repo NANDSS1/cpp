@@ -55,6 +55,12 @@ build CMakeFiles/cpp.dir/hash/lc15_sanshuzhihe.cpp.obj: CXX_COMPILER__cpp_Debug 
   OBJECT_DIR = CMakeFiles\cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp.dir\hash
 
+build CMakeFiles/cpp.dir/hash/lc9_sishuzhihe.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/hash/lc9_sishuzhihe.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\hash\lc9_sishuzhihe.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\hash
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp
@@ -63,7 +69,7 @@ build CMakeFiles/cpp.dir/hash/lc15_sanshuzhihe.cpp.obj: CXX_COMPILER__cpp_Debug 
 #############################################
 # Link the executable cpp.exe
 
-build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/hash/lc15_sanshuzhihe.cpp.obj
+build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/hash/lc15_sanshuzhihe.cpp.obj CMakeFiles/cpp.dir/hash/lc9_sishuzhihe.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp.dir
