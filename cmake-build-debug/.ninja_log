@@ -1,10 +1,10 @@
 # ninja log v5
-1	309	7230101889317552	build.ninja	d2a048fe65147fd9
+1	309	7230115963282120	build.ninja	d2a048fe65147fd9
 13	1741	7219134167380469	CMakeFiles/cpp.dir/leetcode/lc394.cpp.obj	9737cae849b6a4ed
 3	508	7219101598080204	CMakeFiles/cpp.dir/test.cpp.obj	428a029bbffa3d94
 3	2012	7228749994632937	CMakeFiles/cpp.dir/shuzu/lc704_erfen.cpp.obj	92304f55d5c640a7
 1	443	7111006153371923	CMakeFiles/cpp.dir/main.cpp.obj	c8088491e108707d
-1982	2404	7230100927603497	cpp.exe	e858b2ab5c3cdbcc
+1858	2077	7230113150897433	cpp.exe	8f98540719437550
 4	1695	7219151397393046	CMakeFiles/cpp.dir/leetcode/lc84.cpp.obj	2b568ab200d5dced
 2	1784	7221493181571514	CMakeFiles/cpp.dir/shuzu/lc167.cpp.obj	720e4d7113341546
 2	4652	7216297121305405	CMakeFiles/cpp.dir/morechar.cpp.obj	c3cac1e6da58c428
@@ -29,6 +29,7 @@
 7	2140	7227579903305945	CMakeFiles/cpp.dir/linklist/lc206_fanzhuanlianbiao.cpp.obj	8e2efe7c3640629e
 4	2023	7228408039339821	CMakeFiles/cpp.dir/linklist/lc02_fanzhuanlianbiao2.cpp.obj	9569576d06dc7225
 3	365	7228419889924081	CMakeFiles/cpp.dir/yufa/2_xuhanshu.cpp.obj	f9d38e2dc33ce179
+6	1857	7230113148903418	CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj	c801c389b6a46c1f
 5	1204	7228581056993997	CMakeFiles/cpp.dir/yufa/3_xuhanshubiao.cpp.obj	df323e7e75bd8cef
 3	1711	7228593181585787	CMakeFiles/cpp.dir/yufa/4_jiegoutiduiqi.cpp.obj	2d274f0862328531
 3	1483	7228593485265650	CMakeFiles/cpp.dir/yufa/5_ahe&a.cpp.obj	207be7e9f531b41a
@@ -39,19 +40,4 @@
 5	2332	7229582078722567	CMakeFiles/cpp.dir/hash/lc349_lianggeshuzujiaoji.cpp.obj	20e3c1f4f6907482
 15	1847	7229594113757715	CMakeFiles/cpp.dir/yufa/8_duoxiancheng.cpp.obj	9261f035816d8d22
 19	1973	7230100923344883	CMakeFiles/cpp.dir/yufa/9_yinyongjishu.cpp.obj	585b41f7a70868d7
-4	1982	7230100923424684	CMakeFiles/cpp.dir/hash/lc202_kuaileshu.cpp.obj	8508928c30a4c59f
 13	1856	7230107545334329	CMakeFiles/cpp.dir/hash/lc202_kuaileshu.cpp.obj	8508928c30a4c59f
-4	2058	7230107547129534	CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj	c801c389b6a46c1f
-2058	2256	7230107549164086	cpp.exe	8f98540719437550
-5	1776	7230107934073891	CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj	c801c389b6a46c1f
-1776	1981	7230107935859109	cpp.exe	8f98540719437550
-5	1653	7230108232683456	CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj	c801c389b6a46c1f
-1654	1833	7230108234458994	cpp.exe	8f98540719437550
-3	1734	7230108609815468	CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj	c801c389b6a46c1f
-1734	1912	7230108611651357	cpp.exe	8f98540719437550
-4	1699	7230108747980559	CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj	c801c389b6a46c1f
-1699	1877	7230108749726659	cpp.exe	8f98540719437550
-5	1711	7230109320340171	CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj	c801c389b6a46c1f
-1711	1891	7230109322085849	cpp.exe	8f98540719437550
-6	1857	7230113148903418	CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj	c801c389b6a46c1f
-1858	2077	7230113150897433	cpp.exe	8f98540719437550
