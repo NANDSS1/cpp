@@ -71,7 +71,8 @@
 				17,
 				18,
 				19,
-				20
+				20,
+				21
 			]
 		}
 	],
@@ -127,7 +128,8 @@
 				17,
 				18,
 				19,
-				20
+				20,
+				21
 			]
 		},
 		{
@@ -263,6 +265,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "hash/lc454_sishuxiangjia2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hash/lc384_shujinxin.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
