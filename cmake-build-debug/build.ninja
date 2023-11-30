@@ -49,128 +49,8 @@ cmake_ninja_workdir = E$:/computerscience/cpp/cmake-build-debug/
 
 build cmake_object_order_depends_target_cpp: phony || CMakeFiles/cpp.dir
 
-build CMakeFiles/cpp.dir/linklist/lc206_fanzhuanlianbiao.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/linklist/lc206_fanzhuanlianbiao.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\linklist\lc206_fanzhuanlianbiao.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\linklist
-
-build CMakeFiles/cpp.dir/linklist/lc02_fanzhuanlianbiao2.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/linklist/lc02_fanzhuanlianbiao2.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\linklist\lc02_fanzhuanlianbiao2.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\linklist
-
-build CMakeFiles/cpp.dir/yufa/1_newchongzai.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/yufa/1_newchongzai.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\yufa\1_newchongzai.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\yufa
-
-build CMakeFiles/cpp.dir/yufa/2_xuhanshu.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/yufa/2_xuhanshu.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\yufa\2_xuhanshu.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\yufa
-
-build CMakeFiles/cpp.dir/yufa/3_xuhanshubiao.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/yufa/3_xuhanshubiao.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\yufa\3_xuhanshubiao.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\yufa
-
-build CMakeFiles/cpp.dir/yufa/4_jiegoutiduiqi.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/yufa/4_jiegoutiduiqi.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\yufa\4_jiegoutiduiqi.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\yufa
-
-build CMakeFiles/cpp.dir/yufa/5_a.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/yufa/5_a.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\yufa\5_a.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\yufa
-
-build CMakeFiles/cpp.dir/yufa/6_daxiaoduan.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/yufa/6_daxiaoduan.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\yufa\6_daxiaoduan.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\yufa
-
-build CMakeFiles/cpp.dir/yufa/7_zhizhenyinyong.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/yufa/7_zhizhenyinyong.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\yufa\7_zhizhenyinyong.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\yufa
-
-build CMakeFiles/cpp.dir/shuzu/lc704_erfen.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/shuzu/lc704_erfen.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\shuzu\lc704_erfen.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\shuzu
-
-build CMakeFiles/cpp.dir/shuzu/lc27_yichuyuansu.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/shuzu/lc27_yichuyuansu.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\shuzu\lc27_yichuyuansu.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\shuzu
-
-build CMakeFiles/cpp.dir/shuzu/lc977_youxushuzupingfang.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/shuzu/lc977_youxushuzupingfang.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\shuzu\lc977_youxushuzupingfang.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\shuzu
-
-build CMakeFiles/cpp.dir/shuzu/lc209_changduzuixiaozishuzu.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/shuzu/lc209_changduzuixiaozishuzu.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\shuzu\lc209_changduzuixiaozishuzu.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\shuzu
-
-build CMakeFiles/cpp.dir/hash/lc242_youxiaozimuyiweici.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/hash/lc242_youxiaozimuyiweici.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\hash\lc242_youxiaozimuyiweici.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\hash
-
-build CMakeFiles/cpp.dir/hash/lc349_lianggeshuzujiaoji.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/hash/lc349_lianggeshuzujiaoji.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\hash\lc349_lianggeshuzujiaoji.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\hash
-
-build CMakeFiles/cpp.dir/yufa/8_duoxiancheng.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/yufa/8_duoxiancheng.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\yufa\8_duoxiancheng.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\yufa
-
-build CMakeFiles/cpp.dir/yufa/9_yinyongjishu.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/yufa/9_yinyongjishu.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\yufa\9_yinyongjishu.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\yufa
-
-build CMakeFiles/cpp.dir/hash/lc202_kuaileshu.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/hash/lc202_kuaileshu.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\hash\lc202_kuaileshu.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\hash
-
-build CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/hash/lc1_liangshuzhihe.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\hash\lc1_liangshuzhihe.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\hash
-
-build CMakeFiles/cpp.dir/hash/lc454_sishuxiangjia2.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/hash/lc454_sishuxiangjia2.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\hash\lc454_sishuxiangjia2.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\hash
-
-build CMakeFiles/cpp.dir/hash/lc384_shujinxin.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/hash/lc384_shujinxin.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\hash\lc384_shujinxin.cpp.obj.d
+build CMakeFiles/cpp.dir/hash/lc15_sanshuzhihe.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/hash/lc15_sanshuzhihe.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\hash\lc15_sanshuzhihe.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp.dir\hash
@@ -183,7 +63,7 @@ build CMakeFiles/cpp.dir/hash/lc384_shujinxin.cpp.obj: CXX_COMPILER__cpp_Debug E
 #############################################
 # Link the executable cpp.exe
 
-build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/linklist/lc206_fanzhuanlianbiao.cpp.obj CMakeFiles/cpp.dir/linklist/lc02_fanzhuanlianbiao2.cpp.obj CMakeFiles/cpp.dir/yufa/1_newchongzai.cpp.obj CMakeFiles/cpp.dir/yufa/2_xuhanshu.cpp.obj CMakeFiles/cpp.dir/yufa/3_xuhanshubiao.cpp.obj CMakeFiles/cpp.dir/yufa/4_jiegoutiduiqi.cpp.obj CMakeFiles/cpp.dir/yufa/5_a.cpp.obj CMakeFiles/cpp.dir/yufa/6_daxiaoduan.cpp.obj CMakeFiles/cpp.dir/yufa/7_zhizhenyinyong.cpp.obj CMakeFiles/cpp.dir/shuzu/lc704_erfen.cpp.obj CMakeFiles/cpp.dir/shuzu/lc27_yichuyuansu.cpp.obj CMakeFiles/cpp.dir/shuzu/lc977_youxushuzupingfang.cpp.obj CMakeFiles/cpp.dir/shuzu/lc209_changduzuixiaozishuzu.cpp.obj CMakeFiles/cpp.dir/hash/lc242_youxiaozimuyiweici.cpp.obj CMakeFiles/cpp.dir/hash/lc349_lianggeshuzujiaoji.cpp.obj CMakeFiles/cpp.dir/yufa/8_duoxiancheng.cpp.obj CMakeFiles/cpp.dir/yufa/9_yinyongjishu.cpp.obj CMakeFiles/cpp.dir/hash/lc202_kuaileshu.cpp.obj CMakeFiles/cpp.dir/hash/lc1_liangshuzhihe.cpp.obj CMakeFiles/cpp.dir/hash/lc454_sishuxiangjia2.cpp.obj CMakeFiles/cpp.dir/hash/lc384_shujinxin.cpp.obj
+build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/hash/lc15_sanshuzhihe.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp.dir
