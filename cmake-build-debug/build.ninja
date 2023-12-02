@@ -61,6 +61,72 @@ build CMakeFiles/cpp.dir/hash/lc9_sishuzhihe.cpp.obj: CXX_COMPILER__cpp_Debug E$
   OBJECT_DIR = CMakeFiles\cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp.dir\hash
 
+build CMakeFiles/cpp.dir/linklist/lc114_erchashuzhankaiweilianbiao.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/linklist/lc114_erchashuzhankaiweilianbiao.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\linklist\lc114_erchashuzhankaiweilianbiao.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\linklist
+
+build CMakeFiles/cpp.dir/string/lc344_fanzhuanzifuchuan.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/string/lc344_fanzhuanzifuchuan.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\string\lc344_fanzhuanzifuchuan.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\string
+
+build CMakeFiles/cpp.dir/string/lc541_fanzhuanzifuchuan2.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/string/lc541_fanzhuanzifuchuan2.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\string\lc541_fanzhuanzifuchuan2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\string
+
+build CMakeFiles/cpp.dir/string/lc151_fanzhuanzifuchuandanci.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/string/lc151_fanzhuanzifuchuandanci.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\string\lc151_fanzhuanzifuchuandanci.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\string
+
+build CMakeFiles/cpp.dir/shuangzhizhen/lc27_yichuyuansu.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/shuangzhizhen/lc27_yichuyuansu.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\shuangzhizhen\lc27_yichuyuansu.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\shuangzhizhen
+
+build CMakeFiles/cpp.dir/linklist/lc19_shanchulianbiaodaoshudiNgejiedian.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/linklist/lc19_shanchulianbiaodaoshudiNgejiedian.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\linklist\lc19_shanchulianbiaodaoshudiNgejiedian.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\linklist
+
+build CMakeFiles/cpp.dir/linklist/lc_lianbiaoxiangjiao.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/linklist/lc_lianbiaoxiangjiao.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\linklist\lc_lianbiaoxiangjiao.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\linklist
+
+build CMakeFiles/cpp.dir/linklist/lc142_huanxinglianbiao2.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/linklist/lc142_huanxinglianbiao2.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\linklist\lc142_huanxinglianbiao2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\linklist
+
+build CMakeFiles/cpp.dir/stack/lc232_zhanshixianduilie.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/stack/lc232_zhanshixianduilie.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\stack\lc232_zhanshixianduilie.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\stack
+
+build CMakeFiles/cpp.dir/stack/lc225_duilieshixianzhan.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/stack/lc225_duilieshixianzhan.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\stack\lc225_duilieshixianzhan.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\stack
+
+build CMakeFiles/cpp.dir/stack/lc20_youxiaodekuohao.cpp.obj: CXX_COMPILER__cpp_Debug E$:/computerscience/cpp/stack/lc20_youxiaodekuohao.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\stack\lc20_youxiaodekuohao.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\stack
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp
@@ -69,7 +135,7 @@ build CMakeFiles/cpp.dir/hash/lc9_sishuzhihe.cpp.obj: CXX_COMPILER__cpp_Debug E$
 #############################################
 # Link the executable cpp.exe
 
-build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/hash/lc15_sanshuzhihe.cpp.obj CMakeFiles/cpp.dir/hash/lc9_sishuzhihe.cpp.obj
+build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/hash/lc15_sanshuzhihe.cpp.obj CMakeFiles/cpp.dir/hash/lc9_sishuzhihe.cpp.obj CMakeFiles/cpp.dir/linklist/lc114_erchashuzhankaiweilianbiao.cpp.obj CMakeFiles/cpp.dir/string/lc344_fanzhuanzifuchuan.cpp.obj CMakeFiles/cpp.dir/string/lc541_fanzhuanzifuchuan2.cpp.obj CMakeFiles/cpp.dir/string/lc151_fanzhuanzifuchuandanci.cpp.obj CMakeFiles/cpp.dir/shuangzhizhen/lc27_yichuyuansu.cpp.obj CMakeFiles/cpp.dir/linklist/lc19_shanchulianbiaodaoshudiNgejiedian.cpp.obj CMakeFiles/cpp.dir/linklist/lc_lianbiaoxiangjiao.cpp.obj CMakeFiles/cpp.dir/linklist/lc142_huanxinglianbiao2.cpp.obj CMakeFiles/cpp.dir/stack/lc232_zhanshixianduilie.cpp.obj CMakeFiles/cpp.dir/stack/lc225_duilieshixianzhan.cpp.obj CMakeFiles/cpp.dir/stack/lc20_youxiaodekuohao.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp.dir

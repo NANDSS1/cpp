@@ -38,6 +38,7 @@ public:
     }
 };
 
+/*
 int main(){
     vector<int> nums = {2,2,2,2,2};
     Solution s;
@@ -49,3 +50,4 @@ int main(){
         cout<<endl;
     }
 }
+ */
