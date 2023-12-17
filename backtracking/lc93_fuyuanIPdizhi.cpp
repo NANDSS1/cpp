@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 private:
     vector<string> ans;
@@ -45,3 +48,13 @@ public:
         return ans;
     }
 };
+
+int main(){
+    Solution S;
+    string s = "25525511135";
+    vector<string> ans = S.restoreIpAddresses(s);
+    for(const auto& v:ans){
+        cout<<v<<endl;
+    }
+    return 0;
+}
