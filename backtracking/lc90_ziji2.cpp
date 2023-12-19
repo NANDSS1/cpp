@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
 class Solution{
 private:
     vector<vector<int>> result;
@@ -35,3 +36,23 @@ public:
 
     }
 };
+*/
+
+class Solution {
+private:
+    vector<vector<int>> result;
+    vector<int> path;
+    void backtracking(int index,vector<int>& nums){
+        result.push_back(path);
+        for(int i = index;i < nums.size();i++){
+            if(i > index && nums[i] == nums[i-1]) continue;//当前树层后面重复的元素都不取 
+            path.push_back(nums[i]);
+            backtracking(i+1,nums);
+            path.pop_back();
+        }
+        
+    }
+public:
+    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+
+    }
