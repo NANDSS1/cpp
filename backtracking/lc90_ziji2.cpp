@@ -1,58 +1,45 @@
-#include<bits/stdc++.h>
-using namespace std;
+/*给你一个整数数组 nums ，其中可能包含重复元素，请你返回该数组所有可能的子集（幂集）。
 
-/*
-class Solution{
-private:
-    vector<vector<int>> result;
-    vector<int> path;
-public:
-    void backtracking(int index,vector<int>& nums,vector<bool>& used){
-        result.push_back(path);
-        for(int i = index;i < nums.size();i++){
-            // used[i - 1] == true，说明同一树枝candidates[i - 1]使用过
-            // used[i - 1] == false，说明同一树层candidates[i - 1]使用过
-            if(i > index && nums[i] == nums[i-1] && used[i-1] == false){
-                //从第2个元素开始判断，如果发现和前面的元素相等，而且前面的元素 树层用过了就跳过
-                continue;
-            }
-            //经过上面的判断之后就ok
-            path.push_back(nums[i]);
-            used[i] = true;
-            backtracking(i+1,nums,used);
-            used[i] = false;
-            path.pop_back();
-        }
-    }
-    vector<vector<int>> subsetsWithDup(vector<int>& nums){
-        vector<bool> used(nums.size(),false);
-        
-        //排序是一定不能少的,要把一样的元素靠在一起
-        sort(nums.begin(),nums.end());
+解集 不能 包含重复的子集。返回的解集中，子集可以按 任意顺序 排列。
 
-        backtracking(0,nums,used);
+ 
 
-        return result;
+示例 1：
 
-    }
-};
+输入：nums = [1,2,2]
+输出：[[],[1],[1,2],[1,2,2],[2],[2,2]]
+示例 2：
+
+输入：nums = [0]
+输出：[[],[0]]
 */
 
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 private:
-    vector<vector<int>> result;
+    vector<vector<int>> res;
     vector<int> path;
-    void backtracking(int index,vector<int>& nums){
-        result.push_back(path);
-        for(int i = index;i < nums.size();i++){
-            if(i > index && nums[i] == nums[i-1]) continue;//当前树层后面重复的元素都不取 
-            path.push_back(nums[i]);
-            backtracking(i+1,nums);
-            path.pop_back();
-        }
-        
-    }
 public:
-    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+    void backtracking(int index,int n,vector<bool>& used,vector<int>& nums){
+        res.push_back(path); //收集方式和全排列有些不一样
+        for(int i = index;i < n;i++){
+            //这里没有index
+            if(i > index && nums[i] == nums[i-1] && used[i-1] == false) continue;//used[i-1] == false表示,nums[i-1]没有被使用，有可能被使用，所以要跳过
+            used[i] = true;
+            path.push_back(nums[i]);
+            backtracking(i+1,n,used,nums);//有index
+            path.pop_back();
+            used[i] = false;
+        }
 
     }
+    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        vector<bool> used(nums.size(),false);
+        backtracking(0,nums.size(),n,used,nums);
+        return res;
+    }
+};
+
+
