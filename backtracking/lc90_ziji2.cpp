@@ -37,7 +37,7 @@ public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         sort(nums.begin(),nums.end());
         vector<bool> used(nums.size(),false);
-        backtracking(0,nums.size(),n,used,nums);
+        backtracking(0,nums.size(),used,nums);
         return res;
     }
 };
