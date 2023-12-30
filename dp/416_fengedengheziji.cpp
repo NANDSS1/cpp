@@ -36,9 +36,9 @@ public:
             }
         }
 
-        if(dp.back() == sum/2) return false;
+        if(dp.back() == sum/2) return true;
 
-        return true;
+        return false;
 
 
     }

@@ -40,9 +40,11 @@ public:
 
         int result = 1;//points不为空至少需要一只剑
         for(int i = 1;i < points.size();i++){
-            if(points[i-1][1] < points[i][0]) result++;
-
+            if(points[i-1][1] < points[i][0]) result++;//如果不重叠
+            else points[i][1] = min(points[i - 1][1], points[i][1]);//如果重叠取最小的，取最大的有可能小的那个被刺不穿
         }
+        
+        return result;
 
 
     }
