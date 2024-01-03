@@ -27,6 +27,21 @@ using namespace std;
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
+        //物品能不能取多次->可以->完全背包->正序遍历背包
+        //排列还是组合 1 2 5 和 5 2 1有区别没有->没有->组合->先遍历物品 卡尔说这个题排列和组合的界限没有那么清楚
+        vector<int> dp(amount+1,INT_MAX);
+        //初始化
+        dp[0] = 1;
+        for(int i = 0;i < coins.size();i++){
+            for(int j = coins[i];j <= amount;j++){
+            if (dp[j - coins[i]] != INT_MAX) { // 如果dp[j - coins[i]]是初始值则跳过
+                    dp[j] = min(dp[j - coins[i]] + 1, dp[j]);
+                }
+            }
+        }
 
+        if(dp.back() == INT_MAX) return -1;
+
+        return dp.back();
     }
 };

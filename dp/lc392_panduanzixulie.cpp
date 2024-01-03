@@ -25,17 +25,19 @@ using namespace std;
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
-        //相对顺序要保持一致
-        //先遍历长的字符串，找到一样的再移动短的字符串
-        vector<bool> dp(t.size()+1,false);
+        if(s=="") return true;
+        vector<bool> dp(s.size()+1,false);
         dp[0] = true;
-        //设置t.size()+1个比较好操作
+        int i = 1;
         for(const auto& c:t){
             if(c == s[i-1]&&i<s.size()+1){
                 dp[i] = dp[i-1];
                 i++;
                 //这样就保持了一种相对顺序，后面的依赖前面
             }else if(i>=s.size()+1) break;
+        }
+
+        return dp.back();
+
     }
-    return dp.back();
 };
