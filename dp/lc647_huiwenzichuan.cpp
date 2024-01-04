@@ -23,12 +23,29 @@ using namespace std;
 class Solution {
 public:
     int countSubstrings(string s) {
+        vector<vector<bool>> dp(s.size(),vector<bool>(s.size(),false));
         int ans = 0;
-        for(const auto& c:s){
+        for(int i = 0;i < s.size();i++){
+            dp[i][i] = true;
             ans++;
         }
         //遍历字符串的长度
-        
+        for(int len = 2;len <= s.size();len++){
+            for(int i = 0;(i+len-1)<s.size();i++){
+                //判断条件，长度为2和长度为3
+                int j = i+len-1;
+                if(s[i] == s[j]){
+                    if(len == 2){
+                        dp[i][j] = true;
+                        ans++;
+                    }else if((len >= 3) && (dp[i+1][j-1] == true)){
+                        dp[i][j] = true;
+                        ans++;
+                    }
+                }
+            }
+        }
 
+        return ans;
     }
 };
